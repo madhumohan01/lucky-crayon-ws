@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/video', function () {
-    return redirect()->away('https://www.google.com');
+    return redirect()->away("https://www.google.com");
 });
